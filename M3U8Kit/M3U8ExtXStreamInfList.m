@@ -107,5 +107,10 @@
     return returnString;
     return nil;
 }
+- (void)enumerateObjectsUsingBlock:(void (^)(id obj, NSUInteger idx, BOOL *stop))block
+{
+    [_m3u8InfoList enumerateObjectsUsingBlock:block];
+}
+
 
 @end

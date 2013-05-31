@@ -22,4 +22,6 @@ NSCoding
 
 - (NSString *)originalM3U8PlanStringValue;
 
+- (void)enumerateObjectsUsingBlock:(void (^)(id obj, NSUInteger idx, BOOL *stop))block;
+
 @end
