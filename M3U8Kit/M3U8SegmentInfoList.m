@@ -88,4 +88,10 @@
     return returnString;
 }
 
+- (void)enumerateObjectsUsingBlock:(void (^)(id obj, NSUInteger idx, BOOL *stop))block
+{
+    [_segmentInfoList enumerateObjectsUsingBlock:block];
+}
+
+
 @end
