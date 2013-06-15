@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
     s.requires_arc   = true
     s.source_files   = 'M3U8Kit/*.{h,m}'
     s.license        = 'as-is'
+    s.requires_arc   = true
 end
